@@ -2,13 +2,15 @@ body{
     max-width: 1100px;
 }
 
-.kontejner{
-    background-image: url(/images/pozadi.jpg);
+
+.kontejner {
+   background: url(/images/pozadi.jpg); 
     width: 1000px;
-    background-size: 100%;
-    display: grid;
+    background-size: cover;
+    height: 200vh;
+    /*display: grid;
     grid-template-columns: 200px auto 200px 3fr;
-    grid-template-rows: 200px auto 200px 4fr;
+    grid-template-rows: 200px auto 200px 4fr;*/
 }
 
 .kontejner_pozadi{
