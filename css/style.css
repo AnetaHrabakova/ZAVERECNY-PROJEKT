@@ -10,7 +10,7 @@ body{
     height: 200vh;
     /*display: grid;
     grid-template-columns: 200px auto 200px 3fr;
-    grid-template-rows: 200px auto 200px 4fr;*/
+    grid-template-rows: 200px auto 200px 4fr;
 }
 
 .kontejner_pozadi{
@@ -33,15 +33,19 @@ kontejner_item2 {
         grid-row: 2 / 2;
         grid-column: 2 / 2;
 }
+*/
 
 
-
-.text{
+.text {
     color: rgb(53, 53, 53);
     font-size: 20px;
     text-align: center;
     font-family: 'Milonga', serif;
     
+}
+
+menu{
+text-decoration: none; /*nefunguje odstaneni tecek*/
 }
 
 
@@ -51,13 +55,17 @@ kontejner_item2 {
     background-color: rgb(180, 178, 178);
 }
 
-.header {
-   /* background-image: url(/images/pozadi.png);
-   PŘIDAT NA POZADÍ MÍSTO BARVY*/
+.header_image {
+   background-image: url(/images/pozadi.png);
+    /*PŘIDAT NA POZADÍ MÍSTO BARVY
    background-color: #99b4dd;
-    width: 100%;
-    height: 250px;
+   width: 100%;*/
+    height: 20px; /*nereaguje ani na jine jednotky*/
  }
+
+ .button_home {
+    width: 10px;
+ } 
 
 .header_texty {
     display: flex;
@@ -107,18 +115,25 @@ kontejner_item2 {
 .antioxidanty_image {
     width: 30%;
     margin: 60px 50px 50px 60px;
-    /*box-shadow: 0 4px 4px white;*/
     float: left;
 }
 
-/*.antioxidanty_flexbox1 {
+.antioxidanty_flexbox1 {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
     font-size: 14px;
-}*/
+}
 
 .video {
     width: 300px;
     height: 200px;
 }
+
+/******** SPANEK *******/
+
+/*.spanek_image {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}*/
