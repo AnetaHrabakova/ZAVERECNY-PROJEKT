@@ -2,13 +2,96 @@
     max-width: 1100px;
 }*/
 
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  ::after,
+  ::before {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    background: url(/images/pozadi.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+     }
+
+.kontejner {
+    display: grid;
+    border: solid 1px red;
+    display: grid;
+    grid-template-columns: auto;
+    background-image: url(/images/pozadi.png);
+    grid-template-columns: 15% 15% 20% 20% 15% 15% ;
+    grid-template-rows: 100px auto 100px auto auto;
+   
+
+}
+
+
+.kontejner_item1_nadpis {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-end: 1;
+    grid-row-end: 2;
+    align-items: center;
+}
+
+
+
+.kontejner_item2_popis{
+    grid-column: 4 / 5;
+    grid-row: 1 / 1;
+
+}
+
+.kontejner_item3_text{
+    grid-column: 4 / 5;
+    grid-row: 2 / 2;
+
+}
+
+.kontejner_item5_button_tema {
+    grid-column: 2 / 2;
+    grid-row: 3 / 3;
+
+}
+
+.kontejner_item6_button_kontakt {
+    grid-column: 5 / 5;
+    grid-row: 3 / 3;
+
+
+}
+
+
+.kontejner_item4_text{
+    grid-column: 2 / 3;
+    grid-row: 4 / 4;
+
+}
+/*.kontejner_kotva {
+    width: 150px;
+    height: 150px;
+    margin-left: 50%;
+      }
+
+
+
+
 
 .kontejner {
    background: url(/images/pozadi.jpg); 
     width: 1000px;
     background-size: cover;
     height: 200vh;
-    /*display: grid;
+    display: grid;
     grid-template-columns: 200px auto 200px 3fr;
     grid-template-rows: 200px auto 200px 4fr;
 }
@@ -33,7 +116,7 @@ kontejner_item2 {
         grid-row: 2 / 2;
         grid-column: 2 / 2;
 }
-*/
+
 
 
 .text {
@@ -46,8 +129,7 @@ kontejner_item2 {
 
 menu{
 text-decoration: none; /*nefunguje odstaneni tecek*/
-}
-
+ 
 
 /******** ANTIOXIDANTY *******/
 
