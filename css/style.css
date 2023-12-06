@@ -20,7 +20,10 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
+   
      }
+
+
 
 .kontejner {
     display: grid;
@@ -29,12 +32,12 @@ html {
     width: 1100px;
     grid-template-columns: auto;
     background-image: url(/images/pozadi.png);
-    background-size: 100%;
+    background-size: cover;
     grid-template-columns: 15% 15% 20% 20% 15% 15% ;
     grid-template-rows: 100px auto 100px auto auto;
-   
 
 }
+
 
 
 .kontejner_item1_nadpis {
