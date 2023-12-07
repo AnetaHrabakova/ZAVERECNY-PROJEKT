@@ -15,7 +15,7 @@
  
   <div class="kontejner">
 
-        <img class="kontejner_pozadi"  src="images/pozadi.png" alt="pozadí úvodní stránky">
+        <!--<img class="kontejner_pozadi"  src="images/pozadi.png" alt="pozadí úvodní stránky"> -->
         <h1 class="kontejner_item1_nadpis">Circle of Power and Energie</h1>
         <h2 class="kontejner_item2_popis">.... najdi cestu cítit se líp</h2>
           
@@ -28,12 +28,23 @@
         <p class="kontejner_item4_text">Dosahování a udržování fyzické, duševní a sociální pohody je trvalý proces,
               formován osobními strategiemi a organizovanými činnostmi pro jeho udržení.</p>
            
-
-        <button class="kontejner_item5_button_tema">Téma</button>   
-        <button class="kontejner_item6_button_kontakt">Kontakt</button>
+              <select class="kontejner_item5_button_tema" onchange="location = this.value;">
+                <option value="">Téma</option>
+                <option value="antioxidanty.html">Antioxidanty</option>
+                <option value="spanek.html">Spánek</option>
+                <option value="modrezony.html">Modré zóny</option>
+                <option value="">... další</option>
+              </select>
         
+        <button class="kontejner_item6_button_kontakt">Kontakt</button>
+       
   </div>
-          
+
+
+  
+
+
+     <!--     
         <div id="menu">
           <div>
             <ul>
@@ -44,7 +55,7 @@
           </div>
         </div>
       
-  
+  --> 
 
 
   <footer class="footer">
