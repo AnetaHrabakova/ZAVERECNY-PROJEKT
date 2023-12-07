@@ -52,11 +52,11 @@ html {
 
 
 .kontejner_item2_popis{
-    grid-column: 4 / 6;
+    grid-column: 3 / 6;
     grid-row: 2 / 2;
     width: 100%;
-    margin: 20px 30% 50px 30%;
-    font-size: 20px;
+    margin: 10px 30% 50px 0;
+    font-size: 14px;
     
 
 }
@@ -65,7 +65,7 @@ html {
     grid-column: 4 / 6;
     grid-row: 4 / 4;
     width: 100%;
-    margin: 90px 70px 70px 70px;
+    margin: 100px 70px 100px 70px;
     text-align: center;
  }
 
@@ -96,7 +96,7 @@ html {
     grid-column: 1 / 3;
     grid-row: 4 / 4;
     width: 100%;
-    margin: 90px 70px 70px 30%;
+    margin: 100px 70px 100px 30%;
     text-align: center;
 
 }
@@ -115,6 +115,8 @@ footer {
     text-align: center;
     font-family: 'Milonga', serif;
     font-size: 10px;
+    color: #6C6D6D;
+
 }     
 /*
 .text {
