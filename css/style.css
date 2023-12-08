@@ -101,11 +101,13 @@ html {
 
 footer {
     width: 100%;
+    height: auto;
     background-color: #DDDDDD;
     text-align: center;
     font-family: 'Milonga', serif;
-    font-size: 10px;
+    font-size: 12px;
     color: #6C6D6D;
+    
 
 }     
 /*
@@ -131,7 +133,7 @@ text-decoration: none; /*nefunguje odstaneni tecek*/
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 50vh;
+  height: 40vh;
   display: grid;
   grid-template-columns: 40% 60%;
   grid-template-rows: auto 50% 50%;
@@ -158,9 +160,11 @@ text-decoration: none; /*nefunguje odstaneni tecek*/
     grid-column: 1 / 1;
     grid-row: 2 / 2;
     font-size: 32px;
-    padding-top: 15%;
+    padding-top: 10%;
     padding-left: 15%;
+    text-decoration:overline #f1f1f1;
  }
+
 
 .header_texty_popis_item3 {
     width: 100%;
@@ -169,6 +173,7 @@ text-decoration: none; /*nefunguje odstaneni tecek*/
     padding-left: 10%;
     padding-right: 15%;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .header_texty_nadpis_item2, .header_texty_popis_item3 {
@@ -197,27 +202,50 @@ text-decoration: none; /*nefunguje odstaneni tecek*/
 }
 
 .texty {
+    width: 100%;
     font-size: 14px;
     font-family: 'Milonga', serif;
-    text-align: center;
-    margin: 10%;
-    background-color: #DDDDDD;
+    
+    padding: 5% 10% 10% 10%; 
+    background-color: #f1f1f1;
 }
 
 .antioxidanty_image {
-    width: 100px; 
+    width: 40%; 
+    height: 40%;
     margin: 60px 50px 50px 60px;
+    padding-left: 5%;
     float: left;
-    /*NEREAGUJE*/
+   
+   
 }
+
+.odstavec1, .odstavec2, .odstavec4, .odstavec5, .odstavec6 /*vymenit za vsechny mimo 3...*/{
+    margin: 30px 0;
+    text-align: justify;
+}
+
+.odstavec1 {
+    margin-top: 40px;
+}
+
+.odstavec3 {
+padding: 0 10%;
+text-align: center;
+font-size: 16px;
+text-decoration: underline;
+margin-bottom: 30px;
+
+}
+
 
 
 
 .video {
-    width: 300px;
-    height: 200px;
+    width: 40%
+    height: auto;
+    margin: 10% 15%;
 }
-
 /******** SPANEK *******/
 
 /*.spanek_image {
