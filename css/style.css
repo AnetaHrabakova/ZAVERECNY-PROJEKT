@@ -113,17 +113,7 @@ footer {
     
 
 }     
-/*
-.text {
-    color: rgb(53, 53, 53);
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Milonga', serif;
-    
-}
 
-menu{
-text-decoration: none; /*nefunguje odstaneni tecek*/
  
 
 /******** ANTIOXIDANTY *******/
@@ -199,7 +189,7 @@ text-decoration: none; /*nefunguje odstaneni tecek*/
   }
 
 .delici_cara {
-    width: 1100px;
+    width: 100%;
     height: 20px;
     background: linear-gradient(to right, white, rgb(180, 178, 178));
 }
@@ -240,9 +230,19 @@ margin-bottom: 30px;
 
 }
 
+.odstavec5 {
+    margin-bottom: 100px;
+}
+
+.h3_antioxidant_1, .h3_antioxidant_2 {
+    padding-left: 0;
+}
 
 iframe {
-    margin: 10% 20% 30% 20%;
+   /* margin: 10% 20% 30% 20%;*/
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10%;
 }
 
 
@@ -251,22 +251,54 @@ iframe {
 .spanek_image {
     width: 40%; 
     height: 40%;
-    margin: 60px 50px 50px 60px;
-    padding-left: 5%;
+    margin: 90px 50px 50px 60px;
+   /* padding-left: 5%; */
     float: left; 
+    border: solid 1px black;
 }
 
 .text_sleep_1, .text_sleep_2, .text_sleep_3, .text_sleep_4, .text_sleep_5, .text_sleep_6, .text_sleep_7, 
-.text_sleep_8, .text_sleep_9, .text_sleep_10, .text_sleep_11, .text_sleep_12  {
+.text_sleep_8, .text_sleep_9, .text_sleep_10, .text_sleep_11, .text_sleep_12, .text_sleep_13, .text_sleep_14  {
     margin-top: 30px;
     margin-right: 5%;
     text-align: justify;
 }
 
+.text_sleep_1{
+    margin-top: 0;
+    padding-top: 50px;
+}
+
+.text_sleep_14 {
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+}
+.text_sleep_5, .text_sleep_9, .text_sleep_10 {
+    margin-bottom: 40px;
+}
+
 .texty_sleep {
     font-family: 'Milonga', serif;
+    font-size: 14px;
+    background-color: #f1f1f1;
+    }
 
+h3 {
+    padding-left: 5%;
+    margin-top: 25px;
 }
+
+.text_sleep_4, .text_sleep_5, .text_sleep_6, .text_sleep_7, .text_sleep_8, .text_sleep_9, .text_sleep_10,
+.text_sleep_11, .text_sleep_12, .text_sleep_13, .text_sleep_14 {
+
+    padding-left: 5%;
+}
+
+.ifram_spanek {
+    width: 50%;
+    margin-left: 25%;
+}
+
 /********** MODRE ZONY ********/
 
 .zony_image {
@@ -276,4 +308,3 @@ iframe {
     /*padding-left: 5%;*/
     float: left; 
     border: solid 1px black;
-}
