@@ -208,7 +208,6 @@ text-decoration: none; /*nefunguje odstaneni tecek*/
     width: 100%;
     font-size: 14px;
     font-family: 'Milonga', serif;
-    
     padding: 5% 10% 10% 10%; 
     background-color: #f1f1f1;
 }
@@ -242,12 +241,9 @@ margin-bottom: 30px;
 }
 
 
-.video {
-    width: 40%
-    height: auto;
-    margin: 10% 15%;
+iframe {
+    margin: 10% 20% 30% 20%;
 }
-
 
 
 /******** SPANEK *******/
@@ -260,7 +256,17 @@ margin-bottom: 30px;
     float: left; 
 }
 
+.text_sleep_1, .text_sleep_2, .text_sleep_3, .text_sleep_4, .text_sleep_5, .text_sleep_6, .text_sleep_7, 
+.text_sleep_8, .text_sleep_9, .text_sleep_10, .text_sleep_11, .text_sleep_12  {
+    margin-top: 30px;
+    margin-right: 5%;
+    text-align: justify;
+}
 
+.texty_sleep {
+    font-family: 'Milonga', serif;
+
+}
 /********** MODRE ZONY ********/
 
 .zony_image {
