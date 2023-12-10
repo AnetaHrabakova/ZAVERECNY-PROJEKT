@@ -305,6 +305,49 @@ h3 {
     width: 40%; 
     height: 40%;
     margin: 60px 50px 50px 10%;
-    /*padding-left: 5%;*/
     float: left; 
     border: solid 1px black;
+ }
+
+ .texty_zony {
+    font-family: 'Milonga', serif;
+    font-size: 14px;
+    background-color: #f1f1f1; 
+    padding-right: 5%;
+    text-align: justify;
+     }
+
+.texty_zony_1,.texty_zony_2, .texty_zony_3,.texty_zony_4, .texty_zony_5, .texty_zony_6, .texty_zony_7, .texty_zony_8, .texty_zony_9,
+ .texty_zony_10, .texty_zony_11 {
+    padding-left: 5%;
+ }
+
+ .texty_zony_0 {
+    margin-top: 0;
+    padding-top: 40px;
+ }
+ 
+ .texty_zony_11 {
+    margin-bottom: 100px;
+ }
+
+ .texty_zony_seznam {
+    
+    list-style-type: none;
+}
+
+li{
+    margin: 5px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.texty_zony_0 {
+text-align: right;
+padding-right: 5%;
+padding-top: 50px;
+}
+
+.texty_zony_1 {
+    margin-top: 40px;
+}
