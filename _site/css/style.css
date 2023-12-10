@@ -60,7 +60,7 @@ html {
  }
 
 
- .kontejner_item5_button_tema, .kontejner_item6_button_kontakt {
+ .kontejner_item5_button_tema {
     height: 20px;
     width: 100px;
     margin: 50px;
@@ -77,7 +77,7 @@ html {
     margin-top: 0;   
 }
    
-.kontejner_item6_button_kontakt {
+.kontejner_item6_button_fb {
     grid-column: 6 / 6;
     grid-row: 2 /2;    
     margin-top: 0;
