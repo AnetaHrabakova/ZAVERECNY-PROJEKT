@@ -61,9 +61,9 @@ html {
 
 
  .kontejner_item5_button_tema {
-    height: 20px;
+    height: 30px;
     width: 100px;
-    margin: 50px;
+    margin: 10px 50px 30px 50px;
     border-radius: 5px;
     background-color: #DDDDDD;
     text-align: left;
@@ -71,7 +71,8 @@ html {
     color: #6C6D6D; 
     grid-column: 5 / 5;
     grid-row: 2 / 2;  
-    margin-top: 0;   
+    padding-top: 5px;
+    
  }
 
 
@@ -117,6 +118,7 @@ a {
     margin: 0;
     padding: 0;
     list-style: none;
+    color: #6C6D6D;
     
 }
 
@@ -133,6 +135,7 @@ a {
     cursor: pointer;
     text-align: center;
     padding-left: 25px;
+    font-size: 18px;
 }
 
 
