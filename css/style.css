@@ -351,3 +351,103 @@ padding-top: 50px;
 .texty_zony_1 {
     margin-top: 40px;
 }
+
+@media screen and (max-width: 640px) {
+
+    body{
+        max-width: 640px;
+         }
+
+    html {
+    box-sizing: border-box;
+     }
+        
+     *,
+     ::after,
+     ::before {
+       box-sizing: inherit;
+     }
+     
+     .kontejner {
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+        text-align: center;
+        justify-content: center;
+    }
+
+ .kontejner_item1_nadpis, .kontejner_item3_text, .kontejner_item4_text {
+   width: 100%;
+   justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    margin: 10% 0;
+    }
+
+.kontejner_item1_nadpis {
+    order: 1
+}
+
+.kontejner_item2_popis {
+    display: none;
+    order: 2
+ }
+
+ .kontejner_item7_kotva {
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 35%;
+    order: 2
+    
+    
+ }
+
+ .kontejner_item3_text {
+    font-size: 14px;
+    padding: 0 15%;
+    order: 3;
+ }
+ .kontejner_item4_text {
+    font-size: 14px;
+    padding: 0 15%;
+    order: 6;
+ }
+
+ .kontejner_item5_button_tema {
+    order: 4;
+    width: 200px;
+  
+    margin: 50px 30% 10px 30%;
+    text-align: center;
+ }
+
+ .kontejner_item6_button_kontakt {
+    order: 5;
+    width: 200px;
+    margin-left: 30%;
+  
+    text-align: center;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
