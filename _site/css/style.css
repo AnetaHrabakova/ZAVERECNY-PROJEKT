@@ -1,0 +1,495 @@
+body{
+    max-width: 1100px;
+     }
+
+
+html {
+    box-sizing: border-box;
+      }
+  
+  *,
+  ::after,
+  ::before {
+    box-sizing: inherit;
+  }
+  
+  
+
+.kontejner {
+    display: grid;
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto;
+    background-image: url(/images/pozadi.png);
+    background-size: cover;
+    grid-template-columns: 15% 15% 20% 20% 15% 15% ;
+    grid-template-rows: 100px auto 100px auto auto;
+    font-family: 'Milonga', serif;
+    color: #6C6D6D;
+}
+
+
+.kontejner_item1_nadpis {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    align-items: center;
+    width: 450px;
+    margin: 20% 40px 40px 30%;
+    font-size: 26px;
+    
+  }
+
+
+
+.kontejner_item2_popis{
+    grid-column: 3 / 6;
+    grid-row: 2 / 2;
+    width: 100%;
+    margin: 10px 30% 50px 0;
+    font-size: 14px;
+    
+
+}
+
+.kontejner_item3_text{
+    grid-column: 4 / 6;
+    grid-row: 4 / 4;
+    width: 330px;
+    margin: 150px 70px 150px 70px;
+    text-align: center;
+ }
+
+
+ .kontejner_item5_button_tema, .kontejner_item6_button_kontakt {
+    height: 20px;
+    width: 100px;
+    margin: 50px;
+    border-radius: 5px;
+    background-color: #DDDDDD;
+    text-align: left;
+    border: solid 0 white;  
+    color: #6C6D6D; 
+ }
+
+.kontejner_item5_button_tema {
+    grid-column: 5 / 5;
+    grid-row: 2 / 2;  
+    margin-top: 0;   
+}
+   
+.kontejner_item6_button_kontakt {
+    grid-column: 6 / 6;
+    grid-row: 2 /2;    
+    margin-top: 0;
+    margin-left: 0;
+}
+
+
+.kontejner_item4_text{
+    grid-column: 1 / 3;
+    grid-row: 4 / 4;
+    width: 100%;
+    margin: 150px 70px 150px 30%;
+    text-align: center;
+
+}
+.kontejner_item7_kotva {
+    width: 250px;
+    height: 250px;
+    margin-left: 40%;
+    grid-column: 3 / 4;
+    grid-row: 3 / 3;
+      }
+
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #DDDDDD;
+    text-align: center;
+    font-family: 'Milonga', serif;
+    font-size: 12px;
+    color: #6C6D6D;
+    
+
+}     
+
+ 
+
+/******** ANTIOXIDANTY *******/
+
+
+.header {
+  margin: 0;
+  background: url(/images/pozadi.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: auto 50% 50%;
+  font-family: 'Milonga', serif;
+  
+}
+
+
+ .button_home_item1 {
+    width: 100%;
+    height: auto;
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+    color: white;
+    margin-top: 3%;
+    padding-right: 10%;
+    text-align: right;
+
+    
+ } 
+
+ .header_texty_nadpis_item2 {
+    width: 100%;
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+    font-size: 32px;
+    padding-top: 10%;
+    padding-left: 15%;
+    text-decoration:overline #f1f1f1;
+ }
+
+
+.header_texty_popis_item3 {
+    width: 100%;
+    grid-column: 2 / 2;
+    grid-row: 3 / 3;
+    padding-left: 10%;
+    padding-right: 15%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header_texty_nadpis_item2, .header_texty_popis_item3 {
+    text-align: center;
+
+}
+
+.header_texty_nadpis {
+    font-size: 32px;
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 4px white;
+  }
+
+  .header_texty_popis {
+    font-size: 20px;
+    align-items: center;
+    text-shadow: 0 4px 6px  rgb(244, 244, 244);
+  }
+
+.delici_cara {
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(to right, white, rgb(180, 178, 178));
+}
+
+.texty {
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Milonga', serif;
+    padding: 5% 10% 10% 10%; 
+    background-color: #f1f1f1;
+}
+
+.antioxidanty_image {
+    width: 40%; 
+    height: 40%;
+    margin: 60px 50px 50px 60px;
+    padding-left: 5%;
+    float: left;
+   
+   
+}
+
+.odstavec1, .odstavec2, .odstavec4, .odstavec5, .odstavec6 /*vymenit za vsechny mimo 3...*/{
+    margin: 30px 0;
+    text-align: justify;
+}
+
+.odstavec1 {
+    margin-top: 40px;
+}
+
+.odstavec3 {
+padding: 0 10%;
+text-align: center;
+font-size: 16px;
+text-decoration: underline;
+margin-bottom: 30px;
+
+}
+
+.odstavec5 {
+    margin-bottom: 100px;
+}
+
+.h3_antioxidant_1, .h3_antioxidant_2 {
+    padding-left: 0;
+}
+
+.iframe_antioxidanty {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10%;
+}
+
+
+/******** SPANEK *******/
+
+.spanek_image {
+    width: 40%; 
+    height: 40%;
+    margin: 90px 50px 50px 60px;
+   /* padding-left: 5%; */
+    float: left; 
+    border: solid 1px black;
+}
+
+.text_sleep_1, .text_sleep_2, .text_sleep_3, .text_sleep_4, .text_sleep_5, .text_sleep_6, .text_sleep_7, 
+.text_sleep_8, .text_sleep_9, .text_sleep_10, .text_sleep_11, .text_sleep_12, .text_sleep_13, .text_sleep_14  {
+    margin-top: 30px;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+.text_sleep_1{
+    margin-top: 0;
+    padding-top: 50px;
+}
+
+.text_sleep_14 {
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+}
+.text_sleep_5, .text_sleep_9, .text_sleep_10 {
+    margin-bottom: 40px;
+}
+
+.texty_sleep {
+    font-family: 'Milonga', serif;
+    font-size: 14px;
+    background-color: #f1f1f1;
+    }
+
+h3 {
+    padding-left: 5%;
+    margin-top: 25px;
+}
+
+.text_sleep_4, .text_sleep_5, .text_sleep_6, .text_sleep_7, .text_sleep_8, .text_sleep_9, .text_sleep_10,
+.text_sleep_11, .text_sleep_12, .text_sleep_13, .text_sleep_14 {
+
+    padding-left: 5%;
+}
+
+.ifram_spanek {
+    width: 50%;
+    margin-left: 25%;
+}
+
+/********** MODRE ZONY ********/
+
+.zony_image {
+    width: 40%; 
+    height: 40%;
+    margin: 60px 50px 50px 10%;
+    float: left; 
+    border: solid 1px black;
+ }
+
+ .texty_zony {
+    font-family: 'Milonga', serif;
+    font-size: 14px;
+    background-color: #f1f1f1; 
+    padding-right: 5%;
+    text-align: justify;
+     }
+
+.texty_zony_1,.texty_zony_2, .texty_zony_3,.texty_zony_4, .texty_zony_5, .texty_zony_6, .texty_zony_7, .texty_zony_8, .texty_zony_9,
+ .texty_zony_10, .texty_zony_11 {
+    padding-left: 5%;
+ }
+
+ .texty_zony_0 {
+    margin-top: 0;
+    padding-top: 40px;
+ }
+ 
+ .texty_zony_11 {
+    margin-bottom: 100px;
+ }
+
+ .texty_zony_seznam {
+    
+    list-style-type: none;
+}
+
+li{
+    margin: 5px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.texty_zony_0 {
+text-align: right;
+padding-right: 5%;
+padding-top: 50px;
+}
+
+.texty_zony_1 {
+    margin-top: 40px;
+}
+
+.iframe_zony {
+    width: 50%;
+    margin-left: 25%;
+}
+
+@media screen and (max-width: 640px) {
+
+    body{
+        max-width: 640px;
+         }
+
+    html {
+    box-sizing: border-box;
+     }
+        
+     *,
+     ::after,
+     ::before {
+       box-sizing: inherit;
+     }
+     
+     .kontejner {
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+        text-align: center;
+        justify-content: center;
+    }
+
+ .kontejner_item1_nadpis, .kontejner_item3_text, .kontejner_item4_text {
+   width: 100%;
+   justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    margin: 10% 0;
+    }
+
+.kontejner_item1_nadpis {
+    order: 1
+}
+
+.kontejner_item2_popis {
+    display: none;
+    order: 2
+ }
+
+ .kontejner_item7_kotva {
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 35%;
+    order: 2
+    
+    
+ }
+
+ .kontejner_item3_text {
+    font-size: 14px;
+    padding: 0 15%;
+    order: 3;
+ }
+ .kontejner_item4_text {
+    font-size: 14px;
+    padding: 0 15%;
+    order: 6;
+ }
+
+ .kontejner_item5_button_tema {
+    order: 4;
+    width: 200px;
+  
+    margin: 50px 30% 10px 30%;
+    text-align: center;
+ }
+
+ .kontejner_item6_button_kontakt {
+    order: 5;
+    width: 200px;
+    margin-left: 30%;
+  
+    text-align: center;
+ }
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.button_home_item1 { 
+order: 1;
+}
+
+
+.header_texty_nadpis_item2{
+    text-align: center;
+    padding: 10%;
+    padding-bottom: 5%;
+    margin-bottom: 0;
+    order: 2;
+}
+
+.header_texty_popis_item3 {
+    padding: 0 10%;
+    order: 3;
+   
+}
+
+.iframe_antioxidanty, .iframe_zony, .ifram_spanek {
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+}
+
+.h3_antioxidant_3 {
+    padding-left: 0;
+}
+
+.text_sleep_2, .text_sleep_3 {
+    padding-left: 5%;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+.text_sleep_4 {
+    margin-top: 15px;
+}
+.text_sleep_3 {
+    padding-top: 0;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
