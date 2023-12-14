@@ -145,10 +145,11 @@ a {
 
 
 
-footer {
+.footer {
     width: 100%;
     height: auto;
     background-color: #DDDDDD;
+    justify-self: center;
     text-align: center;
     font-family: 'Milonga', serif;
     font-size: 12px;
@@ -158,6 +159,7 @@ footer {
     position: fixed;
     bottom: 0;
     left: auto;
+    
 
     }     
 
@@ -368,11 +370,6 @@ h3 {
     padding-left: 5%;
  }
 
- .texty_zony_0 {
-    margin-top: 0;
-    padding-top: 40px;
- }
- 
  .texty_zony_11 {
     margin-bottom: 100px;
  }
@@ -389,8 +386,9 @@ li{
 }
 
 .texty_zony_0 {
+margin-top: 0;
 text-align: right;
-padding-right: 5%;
+padding-right: 13%;
 padding-top: 50px;
 }
 
