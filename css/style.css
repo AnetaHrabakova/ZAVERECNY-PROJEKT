@@ -106,9 +106,9 @@ a {
 
 }
 .kontejner_item7_kotva {
-    width: 250px;
-    height: 250px;
-    margin-left: 40%;
+    width: 350px;
+    height: 350px;
+    margin-left: 0;
     grid-column: 3 / 4;
     grid-row: 3 / 3;
       }
@@ -162,6 +162,11 @@ a {
     
 
     }     
+
+
+    .kontejner_item3_text, .kontejner_item4_text {
+        padding-top: 40%;
+    }
 
  
 
